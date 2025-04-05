@@ -44,7 +44,9 @@ jobs:
         uses: docker/build-push-action@v6.15.0
         with:
           context: src
-          file: src/Dockerfile
+          file: ./src/Dockerfile
           push: true
           tags: |
+            cezaniltomsilva/aula-conversao-temperatura:v1
+            cezaniltomsilva/aula-conversao-temperatura:latest
             
