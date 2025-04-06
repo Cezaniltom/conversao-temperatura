@@ -52,6 +52,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            cezaniltomsilva/aula-conversao-temperatura:{{ github.run_number }}
+            cezaniltomsilva/aula-conversao-temperatura:${{ github.run_number }}
             cezaniltomsilva/aula-conversao-temperatura:latest
             
